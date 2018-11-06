@@ -1,0 +1,30 @@
+//This code doesn't really matter, Ryan was destined to have a big coochie.
+
+import java.util.Scanner;
+
+public class CoochSize {
+	public static void main(String[] args) {
+		String big = "Ryan has a big cooch";
+		String small = "Ryan has a small cooch";
+	    int coochieSize;
+	    boolean isItBig = true;
+	    
+	    Scanner scan = new Scanner(System.in);
+	    
+	    System.out.println("How big number is ryans coochie");
+	    coochieSize = scan.nextInt();
+	    
+	    while (isItBig == true) {
+		    	if (coochieSize <= 3) {
+		    		System.out.println(small);
+		    		coochieSize++;
+		    	}
+		    	
+		    	else if (coochieSize > 3)
+		    		System.out.println(big);
+	    }
+	    
+	    scan.close();
+	    
+	}
+}
